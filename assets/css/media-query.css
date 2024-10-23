@@ -1,0 +1,238 @@
+@media   only screen and (max-width: 1437px){
+    /* .ind-skill{
+        font-size: 2.3rem;
+    } */
+}
+@media only screen and (max-width:1327px){
+    .profile-photo{
+        width: 100%;
+        /* border: 2px solid pink; */
+        text-align: center;
+    }
+    .profile-details{
+        width: 100%;
+    }
+    .profile-photo img{
+        width: 50vw;
+    }
+    /* .ind-skill{
+        font-size: 1.8rem;
+    } */
+}
+
+@media only screen and (max-width: 1507px) {
+    .ind-skill {
+        flex-basis: 48%; 
+        margin-bottom: 1rem; 
+    }
+    .service{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 807px) {
+    .ind-skill {
+        flex-basis: 100%; 
+    }
+    .ind-skill img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .ind-skill {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .service {
+        flex-basis: 48%;
+    }
+}
+
+/* Small screens: 1 item per row */
+@media only screen and (max-width: 652px) {
+    .service {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 1314px) {
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .card-{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .nav .fa-bars {
+        display: block;
+        font-size: 2rem; 
+        cursor: pointer;
+    }
+
+    .nav-links,
+    .nav-button {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .ft-sm{
+        font-size: 1.3rem;
+    }
+    .ft-md{
+        font-size:2.4rem ;
+    }
+    .ft-lg{
+        font-size: 3.8rem;
+    }
+    #google{
+        font-size: 5rem;
+    }
+    #great-learning{
+        font-size: 3.8rem;
+    }
+    #canva{
+        font-size: 5rem;
+    }
+    .card{
+        max-width: 100%;
+    }
+    .card h4{
+        font-size: 2.5rem;
+        margin: 2rem 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ft-sm{
+        font-size: 1.1rem;
+    }
+    .ft-md{
+        font-size:2rem ;
+    }
+    .ft-lg{
+        font-size: 3.5rem;
+    }
+    body{
+        margin: auto;
+    }
+    #google{
+        font-size: 3.3rem;
+    }
+    #great-learning{
+        font-size: 2.5rem;
+    }
+    #canva{
+        font-size: 3.3.7rem;
+    }
+    .certificates{
+        padding-bottom: 3rem;
+    }
+    .services{
+        margin-bottom: 3rem;
+    }
+    .skills{
+        padding: 1rem 0;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .ft-sm{
+        font-size: 1rem;
+    }
+    .ft-md{
+        font-size:1rem ;
+    }
+    .ft-lg{
+        font-size: 2.7rem;
+    }
+    #google{
+        font-size: 2.3rem;
+    }
+    #great-learning{
+        font-size: 1.1rem;
+    }
+    #canva{
+        font-size: 2.3rem;
+    }
+    /* body{
+        margin: auto;
+    } */
+     .card{
+        width: 19.3rem;
+     }
+    .pd-2rem{
+        padding: 0.1rem;
+    }
+    .fw-400,.fw-500,.fw-600,.fw-700{
+        font-weight: 400;
+    }
+    .lt-space{
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo-container button{
+        padding:1.2rem 3.2rem;
+        width: 90vw;
+    }
+    .links{
+        align-items: center;
+    }
+    #horizontal-line{
+        display: none;
+    }
+    #footer-links{
+        justify-content: center;
+    }
+    #footer-social{
+        justify-content: center;
+    }
+    .footer{
+        padding: auto;
+    }
+    #logo-container button{
+        padding: 1rem 3rem;
+        font-size: 1.4rem;
+    }
+    .links{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 986px) {
+    .footer-container{
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+    }
+    #logo-container{
+        gap: 1rem;
+    }
+    .links{
+        align-items: center;
+    }
+    #horizontal-line{
+        display: none;
+    }
+    .links{
+        gap: 1rem;
+        /* justify-content: center; */
+    }
+    #footer-social{
+        justify-content: center;
+    }
+    #logo-container button{
+        padding: 0.7rem 2.7rem;
+        font-size: 1rem;
+    }
+    .links{
+        font-size: 1.7rem;
+    }
+}
+

@@ -1,0 +1,13 @@
+:root {
+    --nav-bg-color: #1E1E1E;
+    /* --xnav-link-color: #E1E1DF; */
+    --font-family: "Inter", sans-serif;
+    --font-semi-bold: 600;
+    --nav-button-bg-color: #6D6D6D;
+    --button-bg-color-toggle: #FEDA0A;
+    --nav-link-color: #878787;
+    --bg-color:#101113;
+    --white-text-color: #FFFFFF;
+    --gray-color: #878787;
+    --black-bg:#000000;
+}
